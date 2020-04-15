@@ -15,9 +15,4 @@ class PagesController extends Controller
         $title = 'Login';
         return view('pages.login', compact('title'));
     }
-
-    public function register(){
-        $title = 'Register';
-        return view('pages.register', compact('title'));
-    }
 }

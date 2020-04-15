@@ -14,9 +14,6 @@
         <li class="nav-item">
           <a class="navbar-brand" href="/kchannellogin/public/login">Login</a>
         </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="/kchannellogin/public/register">Register</a>
-        </li>
       </ul>
     </div>
   </nav>

@@ -17,9 +17,6 @@
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <br/>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <br/><a href="/kchannellogin/public/register"><u><i> Sign-up </i></u></a>
       </form>
       </body>
   </div>
