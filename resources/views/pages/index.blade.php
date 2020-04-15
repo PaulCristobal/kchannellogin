@@ -7,5 +7,6 @@
         <h1><b> {{$title}} </b></h1>
         <p> <a class="btn btn-primary btn-lg" href="/kchannellogin/public/login" role="button">Login </a>
     </div>
+<hr/>    
 @endsection
  
