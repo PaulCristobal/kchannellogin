@@ -7,17 +7,17 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function index(){
-        $title = 'Welcome to Knowledge Channel';
+        $title = 'Welcome';
         return view('pages.index', compact('title'));
     }
 
     public function login(){
-        $title = 'LOGIN';
+        $title = 'Login';
         return view('pages.login', compact('title'));
     }
 
     public function register(){
-        $title = 'REGISTER';
+        $title = 'Register';
         return view('pages.register', compact('title'));
     }
 }

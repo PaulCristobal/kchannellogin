@@ -1,8 +1,10 @@
 @extends('layouts.app')
 
-@section('content')   
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
-    <h1> {{$title}} </h1>
+@section('content')
+<div class="jumbotron text-center">
+  <img class="img-logo" src="/img/kchannellogo.png" alt="KChannel" height="250" width="auto"/>
+  <br/><br/>  
+  <h1><b> {{$title}} </b></h1>
     <body class="text-center">
         <form class="form-register">
           <label for="inputEmail" class="sr-only">Email Address</label>
@@ -18,4 +20,5 @@
           <br/> <br/><a href="/kchannellogin/public/login"><u><i> Already have an account? </i></u></a>
         </form>
         </body>
+</div>
 @endsection
