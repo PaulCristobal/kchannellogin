@@ -2,14 +2,8 @@
 
 @section('content')
     <div class="jumbotron text-center">
-        @if(count($dashboard) > 1)
-            @foreach($dashboard as $dashboard)
-                <div class="well">
-                    <h3>{{title}} </h3>
-                </div>
-            @endforeach
-        @else
-            <p> Empty dashboard </p>
-        @endif
+        <div class="well">
+            <h3>{{$title}} </h3>
+        </div>
     </div>
 @endsection

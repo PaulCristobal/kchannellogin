@@ -22,4 +22,4 @@ Route::get('/hello', function () {
 
 Route::get('/', 'PagesController@index');
 Route::get('/login', 'PagesController@login');
-Route::get('/register', 'PagesController@register');
+Route::get('/dashboard', 'PagesController@dashboard');
