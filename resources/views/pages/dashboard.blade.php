@@ -5,7 +5,7 @@
         @if(count($dashboard) > 1)
             @foreach($dashboard as $dashboard)
                 <div class="well">
-                    <h3>{{$dasboard->title}} </h3>
+                    <h3>{{title}} </h3>
                 </div>
             @endforeach
         @else
