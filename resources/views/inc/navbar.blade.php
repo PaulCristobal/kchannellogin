@@ -9,6 +9,9 @@
         <li class="nav-item active">
           <a class="navbar-brand" href="/kchannellogin/public/">Home </a>
         </li>
+        <li class="nav-item active">
+          <a class="navbar-brand" href="/kchannellogin/public/dashboard">Dashboard </a>
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="nav-item">

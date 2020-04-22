@@ -15,4 +15,9 @@ class PagesController extends Controller
         $title = 'Login';
         return view('pages.login', compact('title'));
     }
+
+    public function dashboard(){
+        $title = 'Dashboard';
+        return view('pages.dashboard', compact('title'));
+    }
 }
