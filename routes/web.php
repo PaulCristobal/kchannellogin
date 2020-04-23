@@ -23,3 +23,5 @@ Route::get('/hello', function () {
 Route::get('/', 'PagesController@index');
 Route::get('/login', 'PagesController@login');
 Route::get('/dashboard', 'PagesController@dashboard');
+
+Route::resource('dashboard', 'DashboardController');
